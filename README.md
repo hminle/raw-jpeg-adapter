@@ -19,7 +19,7 @@ This repository contains the code for the paper:
   <img src="/figures/fig1.jpg" alt="Teaser" width="100%">
 </p>
 
-Raw-JPEG Adapter is a lightweight, learnable pre-processing pipeline that adapts raw images before standard JPEG compression using spatial and optionally frequency domain transforms. The operations are fully invertible, with parameters fitting in the JPEG comment field ($<$64 KB), enabling accurate raw reconstruction after JPEG decoding and significantly reducing file size. In this figure, (A) shows the original raw (DNG), stored as JPEG with high compression (quality 25) without our method in (B), and with our method in (C). Error maps for (B) and (C) are shown on the right. 
+Raw-JPEG Adapter is a lightweight, learnable pre-processing pipeline that adapts raw images before standard JPEG compression using spatial and optionally frequency domain transforms. The operations are fully invertible, with parameters fitting in the JPEG comment field (<64 KB), enabling accurate raw reconstruction after JPEG decoding and significantly reducing file size. In this figure, (A) shows the original raw (DNG), stored as JPEG with high compression (quality 25) without our method in (B), and with our method in (C). Error maps for (B) and (C) are shown on the right. 
 
 
 <p align="center">
