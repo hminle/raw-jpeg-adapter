@@ -115,6 +115,7 @@ Save the JPEG output (default quality = 75).
 Use GPU for inference (default).
 
 **Common Options**:
+
 `--input-file`: (required) Path to the DNG or PNG-16 raw input image.
 
 `--output-dir`: Directory to save output images (default: current directory).
